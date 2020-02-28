@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 .header{
@@ -14,13 +15,35 @@ body {
   background: #282828;
 }
 
-.logo-wrapper {
+.logo-wrapper, .search-wrapper, .actions-wrapper {
+  flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.logo-wrapper {
+  justify-content: flex-start;
 }
 
 .logo-wrapper img {
   width: 80px;
   margin-left: 16px;
+}
+
+.search-wrapper {}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #606060;
+  background: #121212;
+}
+
+.search-wrapper input::placeholder {
+  font-size: 16px;
+  color: #606060;
+}
+
+.actions-wrapper {
+  justify-content: flex-end;
 }
