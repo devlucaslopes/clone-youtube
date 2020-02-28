@@ -44,6 +44,16 @@ body {
   color: #606060;
 }
 
+.search-wrapper button {
+  width: 75px;
+  height: 32px;
+  background: #393939;
+}
+
+.search-wrapper button i{
+  opacity: 0.3;
+}
+
 .actions-wrapper {
   justify-content: flex-end;
 }
