@@ -75,3 +75,9 @@ body {
   border-radius: 50%;
   margin-left: 16px;
 }
+
+.cover img {
+  width: 100%;
+  height: calc(100vw / 6.2 - 1px);
+  object-fit: cover;
+}
