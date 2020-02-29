@@ -76,8 +76,62 @@ body {
   margin-left: 16px;
 }
 
+.cover {
+  background: #0F0F0F;
+}
+
 .cover img {
   width: 100%;
   height: calc(100vw / 6.2 - 1px);
   object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 64px;
+  color: #fff;
+  background: #181818;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+.channel h1 {
+  font-size: 24px;
+}
+
+.channel h2 {
+  color: #4E4E4E;
+}
+
+.channel-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.channel-actions button {
+  padding: 8px;
+  margin-right: 16px;
+  font-size: 16px;
+  background: #303030;
+  color: rgba(255, 255, 255, .5);
+  text-transform: uppercase;
 }
