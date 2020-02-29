@@ -64,3 +64,14 @@ body {
 .actions-wrapper {
   justify-content: flex-end;
 }
+
+.acitons-wrapper i {
+  margin-left: 16px;
+}
+
+.actions-wrapper img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 16px;
+}
