@@ -91,7 +91,7 @@ body {
   flex-direction: column;
 }
 
-.channel-wrapper {
+.channel-wrapper, .channel-navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,4 +134,17 @@ body {
   background: #303030;
   color: rgba(255, 255, 255, .5);
   text-transform: uppercase;
+}
+
+.channel-navigation {
+  padding: 0 64px;
+}
+
+.channel-navigation a {
+  text-transform: uppercase;
+  padding: 8px 32px;
+}
+
+.channel-navigation a.active {
+  border-bottom: 5px solid #fff;
 }
